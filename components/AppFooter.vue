@@ -229,6 +229,7 @@ const socials = ref([
 .footer {
     background: #282828;
     color: #B09EBC;
+    overflow-x: hidden;
 
     & > *:not(:first-child) {
         border-top: 1px solid #553D67;
@@ -694,9 +695,12 @@ const socials = ref([
                     background-color: #553D67;
                 }
 
+                .footer__registered-logo{
+                    margin-right: 29px
+                }
                 .footer__registered-info {
                     display: flex;
-
+                    font-size: 13px;
                     img {
                         width: 13px;
                         height: 13px;
