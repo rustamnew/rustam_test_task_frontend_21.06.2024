@@ -6,7 +6,7 @@ const _props = defineProps({
     },
     label: {
         type: String,
-        required: true,
+        required: false,
     },
     color: {
         type: String,
